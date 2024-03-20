@@ -1,0 +1,83 @@
+/* Estilos para o corpo da página */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   margin: 0;
+   padding: 0;
+}
+
+/* Estilos para os títulos */
+h1, h2 {
+   color: #333;
+}
+
+/* Estilos para os links */
+a {
+   color: #0074d9;
+   text-decoration: none;
+}
+
+/* Estilos para a lista de compras */
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+/* Estilos para os itens da lista */
+li {
+   margin-bottom: 10px;
+}
+
+/* Estilos para o formulário */
+form {
+   margin-bottom: 20px;
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"] {
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+}
+
+/* Estilos para o botão de envio */
+input[type="submit"] {
+   background-color: #0074d9;
+   color: #fff;
+   border: none;
+   padding: 12px 20px;
+   border-radius: 3px;
+   cursor: pointer;
+   border-radius: 100px;
+}
+
+/* Estilos para o rodapé */
+footer {
+   text-align: center;
+   color: #888;
+   margin-top: 30px;
+}
+
+#caixa {
+   width: 25%;
+   height: 60%;
+   padding: 10px;
+   border: 5px solid rgb(112, 112, 112);
+   margin: auto;
+   border-radius: 12px;
+   background-color: white;
+}
+
+input[name="limpa_lista"]{
+   position: fixed;
+   top: 20px;
+   right: 20px;
+   
+}
+
+input[type=text] {
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border-radius: 100px;
+ }
